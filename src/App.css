@@ -1,15 +1,23 @@
 .App {
-  text-align: center;
+  //text-align: center;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  //animation: App-logo-spin infinite 20s linear;
+  position: absolute;
+  left: 200px;
   height: 80px;
 }
 
+.App-links {
+  position: absolute;
+  right: 200px;
+  color: white;
+}
+
 .App-header {
-  background-color: #222;
-  height: 150px;
+  background-color: #1f3d7a;
+  height: 76px;
   padding: 20px;
   color: white;
 }
