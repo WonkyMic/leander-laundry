@@ -1,3 +1,10 @@
+@font-face {
+  font-famile: 'robo';
+  src: url('./res/fonts/Roboto/Roboto-Regular.ttf') format('ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
 .App {
   //text-align: center;
 }
@@ -19,11 +26,13 @@
   background-color: #1f3d7a;
   height: 76px;
   padding: 20px;
+  //font-family: 'robo';
   color: white;
 }
 
 .App-intro {
   font-size: large;
+  font-family: 'robo';
 }
 
 @keyframes App-logo-spin {
