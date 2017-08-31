@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './res/img/ll-logo.png';
+import PageBody from './PageBody.js';
 import './App.css';
 
 class App extends Component {
@@ -31,9 +32,7 @@ class App extends Component {
     return (
       <div className="App">
         {this.header()}
-        <p className="App-intro">
-          Our Services.
-        </p>
+        <PageBody />
       </div>
     );
   }
