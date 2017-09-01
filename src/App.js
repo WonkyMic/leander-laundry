@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './res/img/ll-logo.png';
 import PageBody from './PageBody.js';
-import ContactUs from './ContactUs.js';
+import ContactUs from './ContactPage/ContactUs.js';
 import './App.css';
 
 class App extends Component {
